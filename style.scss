@@ -26,6 +26,10 @@ img {
 	color: #fefefe;
 	font-size: 24px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	&:hover {
+		opacity: 0.7;
+		color: #fefefe;
+	}
 }
 
 .intro {
@@ -195,8 +199,11 @@ img {
 	}
 	.caixas {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-		gap: 10px;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 20px;
+		img {
+			box-shadow: 0px 6px 6px 0px #00000040;
+		}
 	}
 	.caixa {
 		display: block;
@@ -216,6 +223,7 @@ img {
 		font-size: 34px;
 		font-weight: 700;
 		max-width: 650px;
+		color: #002a4c !important;
 		span {
 			color: #c6126e;
 		}
@@ -353,13 +361,17 @@ img {
 			text-shadow: 3px 3px 10px #000030;
 		}
 		div {
-			background-color: #000030;
+			background-color: #002a4c;
 			text-align: center;
 			margin: 0 auto;
 			font-size: 18px;
 			font-weight: 600;
 			color: #fefefe;
 		}
+	}
+	.btn {
+		background-color: #002a4c;
+		color: #fff212;
 	}
 }
 
@@ -435,7 +447,7 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 990px) {
 	.btn {
 		font-size: 18px;
 		padding: 10px 30px;
@@ -502,6 +514,7 @@ footer {
 	}
 	.sec-6 {
 		padding: 70px 0;
+
 		ul {
 			margin-top: 40px;
 			h3 {
@@ -564,7 +577,7 @@ footer {
 		}
 	}
 	.garantia {
-		padding: 70px 0;
+		padding: 30px 0 70px 0;
 		img {
 			max-width: 270px;
 		}
