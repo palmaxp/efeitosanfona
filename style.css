@@ -33,10 +33,11 @@ img {
 .intro {
   max-height: 700px;
   color: #fefefe;
-  background-image: url("/images/section-intro-bg.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #c6126e;
+  /* 	background-image: url('/images/section-intro-bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; */
   text-align: center;
   margin: 0 auto;
 }
@@ -552,6 +553,7 @@ footer footer .small {
     padding: 70px 0;
   }
   .sec-4 .btn {
+    background-color: #002a4c;
     margin-top: 30px;
   }
   .sec-5 {
@@ -636,6 +638,7 @@ footer footer .small {
     margin: 30px 0 20px 0;
   }
   .garantia p {
+    font-weight: 400;
     font-size: 14px;
   }
   .wpp li div {
