@@ -29,13 +29,12 @@ img {
 }
 
 .intro {
-	max-height: 700px;
+	height: 700px !important;
 	color: #fefefe;
-	background-color: #c6126e;
-	/* 	background-image: url('/images/section-intro-bg.png');
+	background-image: url('/images/section-intro-bg.png');
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover; */
+	background-size: cover;
 	text-align: center;
 	margin: 0 auto;
 	h1 {
@@ -48,6 +47,7 @@ img {
 		font-size: 24px;
 		font-weight: bold;
 	}
+
 	p {
 		margin: 0 auto;
 		margin-top: 31px;
@@ -96,7 +96,7 @@ img {
 		display: block;
 		margin: 0 auto;
 		margin-top: 65px;
-		width: 580px;
+		max-width: 550px;
 		li {
 			display: flex;
 			margin-bottom: 27px;
@@ -250,7 +250,7 @@ img {
 }
 
 .about {
-	padding: 110px 0;
+	padding: 110px 0 0 0;
 	background-color: #f9e7f0;
 	.left {
 		display: block;
@@ -281,9 +281,12 @@ img {
 }
 
 .price {
+	background-image: url('/images/price-bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	text-align: center;
 	padding: 70px 0;
-	background-color: #c6126e;
 	max-width: 100%;
 	padding: 110px 0;
 	text-align: center;
@@ -513,7 +516,7 @@ footer {
 		}
 	}
 	.about {
-		padding: 70px 0;
+		padding: 70px 0 0 0;
 		p {
 			margin-top: 20px !important;
 			font-size: 14px !important;
