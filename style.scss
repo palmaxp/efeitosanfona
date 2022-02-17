@@ -32,8 +32,8 @@ img {
 		color: #fefefe;
 	}
 	&:active {
-		margin-bottom: 66px;
-		border-bottom: 0;
+		background-color: #7e0845 !important;
+		color: #fefefe !important;
 	}
 }
 
@@ -284,6 +284,7 @@ img {
 			max-width: 620px;
 			font-size: 18px;
 			margin-top: 42px;
+			margin-bottom: 0 !important;
 			color: #c6126e;
 			&:last-child {
 				margin-top: 36px;
@@ -309,59 +310,108 @@ img {
 	h2 {
 		text-transform: uppercase;
 		margin: 0 auto;
+		margin-bottom: 40px;
 		text-align: center;
 		color: #fefefe;
 		font-size: 24px;
-		font-weight: bold;
+		font-weight: 500;
+		padding: 0 20px;
 		max-width: 850px;
 	}
 	img {
 		max-width: 172px;
 		margin: 0 auto;
-		margin-top: 72px;
+		margin-top: 0 !important;
+		margin-bottom: 30px;
 	}
-	.text-1 {
-		font-size: 22px;
-		color: #fefefe;
-		margin-top: 55px;
+	.text-2 {
+		font-size: 17px !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		color: #fefefe !important;
+	}
+	.price-content-all {
+		margin: 40px 0 40px 0;
+	}
+	.price-header {
+		max-width: 285px;
+		background-color: #002a4c;
+		width: 100%;
+		border-radius: 10px 10px 0 0;
+		margin: 0 auto;
+		padding: 15px 30px;
+		font-weight: 700;
+		border-bottom: 3px solid #d6d6d6;
+	}
+	.price-box {
+		max-width: 285px;
+		padding: 30px;
+		margin: 0 auto;
+		border-radius: 0 0 10px 10px;
+		background-color: #fefefe;
+		.text-2 {
+			font-weight: 700;
+			font-size: 24px;
+			color: #fefefe;
+			margin-top: 80px;
+			margin-bottom: 25px;
+		}
+		p {
+			margin: 0;
+		}
 	}
 	.text-yellow {
 		margin: 0 auto;
-		margin-top: 40px;
-		color: #fff212;
+		margin-top: 30px;
+		color: #000030;
 		max-width: 386px;
-		text-shadow: 3px 3px 10px #000030;
+		li {
+			text-align: left;
+			display: flex;
+
+			margin-bottom: 16px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			.bolinha2 {
+				margin: 0;
+				margin-right: 8px;
+				width: 24px;
+				height: 24px;
+			}
+		}
 		div,
 		p {
-			font-weight: 700;
-			font-size: 26px;
+			font-size: 15px;
+			font-weight: 400 !important;
 		}
 		p {
-			margin-top: 40px;
+			margin-top: 20px;
 		}
 	}
-	.text-2 {
-		font-weight: 700;
-		font-size: 24px;
-		color: #fefefe;
-		margin-top: 80px;
-		margin-bottom: 25px;
-	}
+
 	.price-text {
-		text-align: center;
+		max-width: 200px;
+		text-align: left;
+		line-height: 2rem;
 		margin: 0 auto;
 		font-weight: bold;
 		font-size: 28px;
-		color: #fefefe;
-		text-shadow: 3px 3px 10px #000030;
-		span {
-			color: #fff212;
+		color: #002a4c;
+		.price-number {
+			margin: 4px 0;
+			font-size: 50px;
+			color: #c6126e;
+		}
+		p {
+			font-size: 18px;
 		}
 	}
 	.icon {
 		margin: 0 auto;
 		margin-top: 45px;
 		.caixa {
+			border-radius: 10px;
 			padding: 20px;
 			background-color: #7e0845;
 		}
@@ -394,10 +444,11 @@ img {
 		}
 	}
 	.btn {
+		margin-top: 0;
 		font-weight: bold;
-		background-color: #fff212;
-		color: #002a4c;
-		border-bottom: 5px solid #ffa012;
+		background-color: #002a4c;
+		color: #fefefe;
+		border-bottom: 5px solid #08123f;
 	}
 }
 
@@ -569,17 +620,14 @@ footer {
 			text-transform: unset;
 			font-size: 18px !important;
 		}
-		img {
-			margin-top: 25px;
-		}
 		.text-1 {
-			margin-top: 25px;
+			margin-top: 40px;
 		}
 		.text-2 {
 			margin-top: 25px;
 		}
 		.text-yellow {
-			margin-top: 25px;
+			margin-top: 30px;
 			p {
 				margin-top: 16px;
 			}

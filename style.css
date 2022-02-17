@@ -36,8 +36,8 @@ img {
 }
 
 .cta:active {
-  margin-bottom: 66px;
-  border-bottom: 0;
+  background-color: #7e0845 !important;
+  color: #fefefe !important;
 }
 
 .intro {
@@ -338,6 +338,7 @@ img {
   max-width: 620px;
   font-size: 18px;
   margin-top: 42px;
+  margin-bottom: 0 !important;
   color: #c6126e;
 }
 
@@ -364,44 +365,53 @@ img {
 .price h2 {
   text-transform: uppercase;
   margin: 0 auto;
+  margin-bottom: 40px;
   text-align: center;
   color: #fefefe;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 500;
+  padding: 0 20px;
   max-width: 850px;
 }
 
 .price img {
   max-width: 172px;
   margin: 0 auto;
-  margin-top: 72px;
-}
-
-.price .text-1 {
-  font-size: 22px;
-  color: #fefefe;
-  margin-top: 55px;
-}
-
-.price .text-yellow {
-  margin: 0 auto;
-  margin-top: 40px;
-  color: #fff212;
-  max-width: 386px;
-  text-shadow: 3px 3px 10px #000030;
-}
-
-.price .text-yellow div,
-.price .text-yellow p {
-  font-weight: 700;
-  font-size: 26px;
-}
-
-.price .text-yellow p {
-  margin-top: 40px;
+  margin-top: 0 !important;
+  margin-bottom: 30px;
 }
 
 .price .text-2 {
+  font-size: 17px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #fefefe !important;
+}
+
+.price .price-content-all {
+  margin: 40px 0 40px 0;
+}
+
+.price .price-header {
+  max-width: 285px;
+  background-color: #002a4c;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  margin: 0 auto;
+  padding: 15px 30px;
+  font-weight: 700;
+  border-bottom: 3px solid #d6d6d6;
+}
+
+.price .price-box {
+  max-width: 285px;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 0 0 10px 10px;
+  background-color: #fefefe;
+}
+
+.price .price-box .text-2 {
   font-weight: 700;
   font-size: 24px;
   color: #fefefe;
@@ -409,17 +419,64 @@ img {
   margin-bottom: 25px;
 }
 
+.price .price-box p {
+  margin: 0;
+}
+
+.price .text-yellow {
+  margin: 0 auto;
+  margin-top: 30px;
+  color: #000030;
+  max-width: 386px;
+}
+
+.price .text-yellow li {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.price .text-yellow li:last-child {
+  margin-bottom: 0;
+}
+
+.price .text-yellow li .bolinha2 {
+  margin: 0;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.price .text-yellow div,
+.price .text-yellow p {
+  font-size: 15px;
+  font-weight: 400 !important;
+}
+
+.price .text-yellow p {
+  margin-top: 20px;
+}
+
 .price .price-text {
-  text-align: center;
+  max-width: 200px;
+  text-align: left;
+  line-height: 2rem;
   margin: 0 auto;
   font-weight: bold;
   font-size: 28px;
-  color: #fefefe;
-  text-shadow: 3px 3px 10px #000030;
+  color: #002a4c;
 }
 
-.price .price-text span {
-  color: #fff212;
+.price .price-text .price-number {
+  margin: 4px 0;
+  font-size: 50px;
+  color: #c6126e;
+}
+
+.price .price-text p {
+  font-size: 18px;
 }
 
 .price .icon {
@@ -428,6 +485,7 @@ img {
 }
 
 .price .icon .caixa {
+  border-radius: 10px;
   padding: 20px;
   background-color: #7e0845;
 }
@@ -464,10 +522,11 @@ img {
 }
 
 .price .btn {
+  margin-top: 0;
   font-weight: bold;
-  background-color: #fff212;
-  color: #002a4c;
-  border-bottom: 5px solid #ffa012;
+  background-color: #002a4c;
+  color: #fefefe;
+  border-bottom: 5px solid #08123f;
 }
 
 .faq {
@@ -647,17 +706,14 @@ footer footer .small {
     text-transform: unset;
     font-size: 18px !important;
   }
-  .price img {
-    margin-top: 25px;
-  }
   .price .text-1 {
-    margin-top: 25px;
+    margin-top: 40px;
   }
   .price .text-2 {
     margin-top: 25px;
   }
   .price .text-yellow {
-    margin-top: 25px;
+    margin-top: 30px;
   }
   .price .text-yellow p {
     margin-top: 16px;
